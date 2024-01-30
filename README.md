@@ -34,7 +34,8 @@ O projeto consiste em uma aplicação que lê uma planilha armazenada no Google 
     Java e Spring Boot.
 
 ## Teste unitários
-    A aplicação conta com alguns testes unitários que são responsáveis por verificar e validar a funcionalidade de calculo de média e situação dos alunos.
+    A aplicação conta com alguns testes unitários que são responsáveis por verificar e validar a funcionalidade 
+    de calculo de média e situação dos alunos.
 
 ## Funcionalidades
 
