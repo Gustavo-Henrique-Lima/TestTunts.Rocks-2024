@@ -31,7 +31,12 @@ O projeto consiste em uma aplicação que lê uma planilha armazenada no Google 
    mvn spring-boot:run
 
 ## Tecnologias utilizadas
-    Java e Spring Boot
+    Java e Spring Boot.
+
+## Teste unitários
+    A aplicação conta com alguns testes unitários que são responsáveis por verificar e validar 
+    a funcionalidade de calculo de média e situação dos alunos.
+
 ## Funcionalidades
 
    ### Leitura da Planilha
@@ -40,12 +45,15 @@ O projeto consiste em uma aplicação que lê uma planilha armazenada no Google 
 
    ### Processamento de Dados
 
-      Realiza o processamento dos dados da planilha, identificando lacunas nas colunas "Situação" e "Nota para Aprovação Final".
-      Aplica regras específicas para determinar a situação do estudante e calcular a nota necessária para a aprovação final.
+      Realiza o processamento dos dados da planilha, identificando lacunas nas colunas "Situação" e 
+      "Nota para Aprovação Final".
+      Aplica regras específicas para determinar a situação do estudante e calcular a nota 
+      necessária para a aprovação final.
 
    ### Geração de Resultados
 
-      Produz automaticamente os resultados para a coluna "Situação" e "Nota para Aprovação Final" com base nas regras estabelecidas.
+      Produz automaticamente os resultados para a coluna "Situação" e "Nota para Aprovação Final" 
+      com base nas regras estabelecidas.
    ### Estudantes(Endpoint)
 
     Listar estudantes:
